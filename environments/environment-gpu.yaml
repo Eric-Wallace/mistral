@@ -13,7 +13,7 @@ dependencies:
 - ca-certificates=2021.1.19
 - certifi=2020.12.5
 - cffi=1.14.5
-- cudatoolkit=11.0.221
+- cudatoolkit=10.2
 - dbus=1.13.18
 - decorator=4.4.2
 - defusedxml=0.6.0
