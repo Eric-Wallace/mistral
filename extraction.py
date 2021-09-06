@@ -54,7 +54,6 @@ def main():
     # sample from the top_k tokens output by the model
     top_k = 40
 
-    print("Loading GPT2...")
     # this enables batched left-to-right generation
     tokenizer = GPT2Tokenizer.from_pretrained('gpt2')
     tokenizer.padding_side = "left" 
